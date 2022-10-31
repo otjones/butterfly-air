@@ -2024,6 +2024,10 @@ p {
   margin-bottom: 0px;
 }
 
+.product-card-wide.hide {
+  display: none;
+}
+
 .product-thumb {
   position: -webkit-sticky;
   position: sticky;
