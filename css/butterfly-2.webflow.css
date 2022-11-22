@@ -1906,7 +1906,8 @@ p {
 }
 
 .image-8 {
-  width: 100%;
+  width: 400px;
+  height: 300px;
   margin-top: 50px;
   -webkit-filter: saturate(139%);
   filter: saturate(139%);
@@ -2415,6 +2416,11 @@ p {
   font-size: 14px;
 }
 
+.html-embed-3 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 @media screen and (max-width: 991px) {
   .section-full-height.footer {
     padding-right: 25px;
@@ -2657,6 +2663,11 @@ p {
 
   .half {
     max-width: 100%;
+  }
+
+  .html-embed-3 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
