@@ -160,6 +160,12 @@ a {
   align-items: center;
 }
 
+.section-div.ldf {
+  background-image: linear-gradient(to right, #668592, #8db9ca);
+  border-radius: 48px;
+  overflow: hidden;
+}
+
 .div-block {
   background-image: linear-gradient(to right, #000, rgba(0, 0, 0, 0) 50%);
   position: absolute;
@@ -262,6 +268,12 @@ a {
 
 .button.clear:hover {
   background-color: #fff;
+}
+
+.button.ldf {
+  color: #fff;
+  background-color: #8db9ca;
+  border-style: none;
 }
 
 .space-36 {
@@ -1126,6 +1138,48 @@ a {
   left: 1px;
 }
 
+.ldf-banner-img {
+  width: 100%;
+}
+
+.ldf-banner-content {
+  width: 100%;
+  color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.ldf-stack {
+  width: 100%;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  padding: 0;
+}
+
+.ldf-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.ldf-title {
+  margin-bottom: 0;
+}
+
+.ldf-text-stack {
+  grid-row-gap: 24px;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-left: 32px;
@@ -1145,6 +1199,10 @@ a {
   .section-div.phones {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .section-div.ldf {
+    border-radius: 24px;
   }
 
   .button.client {
@@ -1359,6 +1417,19 @@ a {
   .body {
     padding-top: 64px;
   }
+
+  .ldf-stack {
+    grid-row-gap: 24px;
+  }
+}
+
+#w-node-bab9206e-12df-bfcc-e75b-69e0ad302f4e-06db06de {
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+
+#w-node-bab9206e-12df-bfcc-e75b-69e0ad302f4f-06db06de, #w-node-bab9206e-12df-bfcc-e75b-69e0ad302f52-06db06de {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 #w-node-_9880349d-cfa8-bb2b-d45e-de02c4dfcf43-06db06de {
@@ -1700,6 +1771,15 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  #w-node-bab9206e-12df-bfcc-e75b-69e0ad302f4e-06db06de {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+
+  #w-node-bab9206e-12df-bfcc-e75b-69e0ad302f4f-06db06de, #w-node-bab9206e-12df-bfcc-e75b-69e0ad302f52-06db06de {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
+
   #w-node-_9880349d-cfa8-bb2b-d45e-de02c4dfcf43-06db06de {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
